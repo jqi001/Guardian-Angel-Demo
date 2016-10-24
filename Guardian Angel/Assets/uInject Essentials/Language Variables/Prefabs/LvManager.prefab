@@ -1,0 +1,313 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &133944
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 418016}
+  - 114: {fileID: 11469534}
+  m_Layer: 0
+  m_Name: LvManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &418016
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 133944}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11469534
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 133944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 369658358bca2af4a9c9751eb6061f2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ids:
+  - new_game
+  - end_game
+  - continue_last_game
+  - show_options
+  - show_video_options
+  - show_audio_options
+  - go_back
+  languages:
+  - language: English
+    entries:
+    - id: new_game
+      value: New Game
+    - id: end_game
+      value: Exit
+    - id: c
+      value: 
+    - id: co
+      value: 
+    - id: con
+      value: 
+    - id: cont
+      value: 
+    - id: conti
+      value: 
+    - id: contin
+      value: 
+    - id: continu
+      value: 
+    - id: continue
+      value: 
+    - id: continue_
+      value: 
+    - id: continue_l
+      value: 
+    - id: continue_la
+      value: 
+    - id: continue_las
+      value: 
+    - id: continue_last
+      value: 
+    - id: continue_last_
+      value: 
+    - id: continue_last_g
+      value: 
+    - id: continue_last_ga
+      value: 
+    - id: continue_last_gam
+      value: 
+    - id: continue_last_game
+      value: Continue
+    - id: s
+      value: 
+    - id: sh
+      value: 
+    - id: sho
+      value: 
+    - id: show
+      value: 
+    - id: show_
+      value: 
+    - id: show_o
+      value: 
+    - id: show_op
+      value: 
+    - id: show_opt
+      value: 
+    - id: show_opti
+      value: 
+    - id: show_optio
+      value: 
+    - id: show_option
+      value: 
+    - id: show_options
+      value: Options
+    - id: show__options
+      value: 
+    - id: show__voptions
+      value: 
+    - id: show__vioptions
+      value: 
+    - id: show__vidoptions
+      value: 
+    - id: show__videoptions
+      value: 
+    - id: show__videooptions
+      value: 
+    - id: show__video:options
+      value: 
+    - id: show__video_options
+      value: 
+    - id: show_video_options
+      value: Video
+    - id: show_aoptions
+      value: 
+    - id: show_auoptions
+      value: 
+    - id: show_audoptions
+      value: 
+    - id: show_audioptions
+      value: 
+    - id: show_audiooptions
+      value: 
+    - id: show_audio_options
+      value: Audio
+    - id: g
+      value: 
+    - id: go
+      value: 
+    - id: go_
+      value: 
+    - id: go_b
+      value: 
+    - id: go_ba
+      value: 
+    - id: go_bac
+      value: 
+    - id: go_back
+      value: Back
+  - language: German
+    entries:
+    - id: new_game
+      value: Neues Spiel
+    - id: end_game
+      value: Beenden
+    - id: c
+      value: 
+    - id: co
+      value: 
+    - id: con
+      value: 
+    - id: cont
+      value: 
+    - id: conti
+      value: 
+    - id: contin
+      value: 
+    - id: continu
+      value: 
+    - id: continue
+      value: 
+    - id: continue_
+      value: 
+    - id: continue_l
+      value: 
+    - id: continue_la
+      value: 
+    - id: continue_las
+      value: 
+    - id: continue_last
+      value: 
+    - id: continue_last_
+      value: 
+    - id: continue_last_g
+      value: 
+    - id: continue_last_ga
+      value: 
+    - id: continue_last_gam
+      value: 
+    - id: continue_last_game
+      value: Fortsetzen
+    - id: s
+      value: 
+    - id: sh
+      value: 
+    - id: sho
+      value: 
+    - id: show
+      value: 
+    - id: show_
+      value: 
+    - id: show_o
+      value: 
+    - id: show_op
+      value: 
+    - id: show_opt
+      value: 
+    - id: show_opti
+      value: 
+    - id: show_optio
+      value: 
+    - id: show_option
+      value: 
+    - id: show_options
+      value: Einstellungen
+    - id: show__options
+      value: 
+    - id: show__voptions
+      value: 
+    - id: show__vioptions
+      value: 
+    - id: show__vidoptions
+      value: 
+    - id: show__videoptions
+      value: 
+    - id: show__videooptions
+      value: 
+    - id: show__video:options
+      value: 
+    - id: show__video_options
+      value: 
+    - id: show_video_options
+      value: Video
+    - id: show_aoptions
+      value: 
+    - id: show_auoptions
+      value: 
+    - id: show_audoptions
+      value: 
+    - id: show_audioptions
+      value: 
+    - id: show_audiooptions
+      value: 
+    - id: show_audio_options
+      value: Audio
+    - id: g
+      value: 
+    - id: go
+      value: 
+    - id: go_
+      value: 
+    - id: go_b
+      value: 
+    - id: go_ba
+      value: 
+    - id: go_bac
+      value: 
+    - id: go_back
+      value: "Zur\xFCck"
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: ids.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: languages.Array.data[0].entries.Array.size
+      value: 54
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: languages.Array.data[1].entries.Array.size
+      value: 54
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: ids.Array.data[2]
+      value: continue_last_game
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: ids.Array.data[3]
+      value: show_options
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: ids.Array.data[4]
+      value: show_video_options
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: ids.Array.data[5]
+      value: show_audio_options
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: ids.Array.data[6]
+      value: go_back
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 133944}
+  m_IsPrefabParent: 1
